@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+    isolation: isolate;
 }
 
 .header {
@@ -30,8 +31,18 @@
     width: 358.4px;
     position: fixed;
 
-    top: 25%;
+    top: 29%;
     left: 55%;
+}
+
+.perspectiveDecoration {
+    width: 100%;
+    height: 40%;
+
+    background-color: hsl(195deg, 20%, 86%);
+
+    position: fixed;
+    bottom: 0;
 }
 
 .controlColumn {
