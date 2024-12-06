@@ -28,11 +28,11 @@
 
 .characterWrapper {
     min-height: 500px;
-    width: 358.4px;
     position: fixed;
 
-    top: 29%;
-    left: 55%;
+    top: 20%;
+    left: 60%;
+    bottom: 5%;
 }
 
 .perspectiveDecoration {
